@@ -1,0 +1,10 @@
+Package: ttester
+Title: This package performs multiple t.tests for all pairs of columns in a data.frame or list within a list of lists and outputs the results in a readable format with Bonferroni multiple testing correction.
+Version: 0.0.0.9000
+Authors@R: person("Carrie", "Wright", email = "carrie.wright@libd.org", role = c("aut", "cre"))
+Description: This package uses the stats::t.test function to preform two-sided student t-tests on every pair of columns in a dataframe or lists in a list of lists. As with the t.test function, there is the option to perform paired or unpaired t-tests, and an option treat the variances for all pairs of columns or lists as equal or not. Finally, there is also an option to have the output in scientific notation.  
+Depends: R (>= 3.4.0)
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1.9000
