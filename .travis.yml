@@ -15,10 +15,10 @@ after_success:
   - Rscript -e 'library(covr); codecov()'
 
 notifications:
-  email:
+  email:cwrigh60@jh.edu
     on_success: change
     on_failure: change
-  slack: jhu-genomics:zypNxr0e1D0MGHw3JQo87LkO
+
 
 env:
   global:
